@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Josh Nguyen 
+EMAIL: joshqn@uci.edu
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Josh Nguyen">
+    <meta name="description" content="description of your page">
+    <link rel="stylesheet" href="styles.css">
+    <title>Josh Nguyen's Portfolio</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="joshPhoto.jpeg" alt="Josh Nguyen" class="pfp">
+        <h1>&#x1f44b; Hey, I'm Josh Nguyen. A Prospective Full Stack Developer. &#x1f44b; </h1>
+
+
+
+        <div class="intro-buttons">
+            <a href="/Users/joshnguyen/inf133 a1 copy/Josh Nguyen - Resume (6).pdf" download class="btn contact-btn">My
+                Resumé</a>
+            <a href="#contact" class="btn contact-btn">Contact Me </a>
+            <a href="https://www.linkedin.com/in/joshngn" target="_blank" class="btn icon-btn">
+                <img src="linkedin2.png" alt="My LinkedIn" class="icon"></a>
+
+            <a href="github.com/joshngn" target="blank" class="btn icon-btn">
+                <img src="github-icon.png" alt="My GitHub" class="icon"></a>
+
+
+
+        </div>
+    </section>
+
+
+    <div class="gradient-break"></div>
+
+    <div class="scroll-prompt">▼▼▼</div>
+
+
+    <section id="about">
+        <h2>A Little About Me</h2>
+        <p>Hello, my name is Josh Nguyen, a senior software engineering student at UCI.
+            As a software engineering student at UCI, I have been extensively sharpening my problem solving and
+            programming skills which I believe could provide a valuable asset to any team. My academic experience has
+            equipped me with proficient python, java, c++, and html/css skills. Throughout the course of my college
+            career, I have worked in various settings such as independent research and collaborative teamwork, allowing
+            me to develop a strong work ethic and the ability to effectively communicate with team members and other
+            peers. I am eager to apply my skills and continue growing in a professional environment.</p>
+    </section>
+
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card" data-aos="fade-up">HTML</div>
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="100">CSS</div>
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="200">JavaScript</div>
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="300">React</div>
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="400">Python</div>
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="500">Node.js</div>
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="600">C++</div>
+          <div class="skill-card" data-aos="fade-up" data-aos-delay="700">Figma</div>
+        </div>
+      </section>
+      
+
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="project">
+            <h3>CompTechS, Cupertino, CA — Volunteer</h3>
+            <h4>October 2021 - September 2023</h4>
+            <p>Volunteer for an on-campus organization specializing in refurbishing computers donated by large tech
+                companies (Apple, Google, Intel) surrounding De Anza College. These refurbished computers are later
+                donated to local elementary schools or libraries for use by the community.</p>
+        </div>
+        <div class="project">
+            <h3>Din Tai Fung, Santa Clara, CA — Server</h3>
+            <h4>June 2022 - September 2023</h4>
+            <p>Created a working search engine with a web user interface. Searches were held within the ics.uci.edu
+                domain and would provide results under 300 ms.</p>
+        </div>
+        <div class="project">
+            <h3>Adobe, Remote — Intern</h3>
+            <h4>June 2022 - September 2022</h4>
+            <p>Observed and learned fundamentals of using programming languages for the back-end of Adobe software such
+                as Photoshop and Lightroom. Created an add-on extension for current employees’ Slack using Python.
+                Gained advice and insight on good programming practices from senior developers.</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1: Vending Machine</h3>
+            <p>Created a working vending machine interface that allows users to purchase snacks and keep track of items,
+                the price, and the amount in stock.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Social Media Application</h3>
+            <p>Created a basic working social media application that allows users to create an account and add people as
+                friends, remove friends, and change certain details about their own profile. Currently implemented in
+                Java with console input; future work will explore iOS development.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Search Engine</h3>
+            <p>Created a working search engine with a web user interface. Searches were held within the ics.uci.edu
+                domain and would provide results under 300 ms.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Connect with me!</h2>
+
+        <form id="contactForm">
+            <label for="name"> Name: </label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message"> Message: </label>
+            <textarea id="message" name="message" required> </textarea>
+
+            <button type="submit"> Send </button>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/joshngn/#" target="_blank">
+                    <img src="Instagram-Emblem.png" alt="Instagram">
+                </a>
+
+                <a href="https://www.facebook.com/josh.nguyen.1004837/" target=" _blank">
+                    <img src="Facebook-Logo.png" alt="Facebook">
+                </a>
+
+                <a href="https://www.linkedin.com/in/joshngn/" target=" _blank">
+                    <img src="linkedin1.png" alt="LinkedIn">
+                </a>
+            </div>
+        </form>
+    </section>
+    </section>
+
+    <footer>
+        <p>2025 Josh Nguyen LTD. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
