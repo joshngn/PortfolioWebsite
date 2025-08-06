@@ -23,7 +23,8 @@ export default function App() {
 
       {/* Add more sections later */}
       <footer className="text-center text-sm text-gray-500 py-10">
-        © 2025 Josh Nguyen. All rights reserved.
+        Designed and Developed by Josh Nguyen<br />
+        © 2025 Josh Nguyen LTD. All rights reserved.
       </footer>
     </div>
   );
