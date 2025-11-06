@@ -1,8 +1,10 @@
 import React from "react";
-import { FaHtml5, FaJava, FaPython, FaReact, FaCss3Alt, FaGithub, FaJs, FaFigma } from "react-icons/fa";
+import { FaHtml5, FaJava, FaPython, FaReact, FaCss3Alt, FaGithub, FaJs, FaFigma} from "react-icons/fa";
+import {SiCplusplus as FACplusplus} from "react-icons/si";
 
 export default function Experience() {
   const skills = [
+    { name: "C++", icon: <FACplusplus className="text-blue-500" /> },
     { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
     { name: "CSS3", icon: <FaCss3Alt className="text-blue-500" /> },
     { name: "JavaScript", icon: <FaJs className="text-yellow-500" /> },
@@ -11,6 +13,9 @@ export default function Experience() {
     { name: "Java", icon: <FaJava className="text-red-600" /> },
     { name: "Git", icon: <FaGithub className="text-orange-700" /> },
     { name: "Figma", icon: <FaFigma className="text-blue-500" /> }
+    
+
+
   ]
   return (
     <section id="about" className="bg-gray-950 text-white py-20 px-6 border-t border-gray-800">
@@ -20,7 +25,7 @@ export default function Experience() {
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-4">About Me</h2>
           <p className="text-[#a6a6a6] text-md md:text-lg max-w-3xl mx-auto">
-            Nice to meet you! I'm Josh Nguyen, a software engineer based in California with a passion for clean UI, intuitive UX,
+            Nice to meet you! I'm Josh Nguyen, a software engineer based in Irvine, California with a passion for clean UI, intuitive UX,
             and building full-stack applications that make a difference. Outside of coding, I enjoy exploring new cuisines,
             attending music festivals, and adventuring.
           </p>
